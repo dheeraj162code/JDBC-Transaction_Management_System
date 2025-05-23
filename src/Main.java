@@ -18,7 +18,7 @@ public class Main {
             switch (option){
                 case 1:
                     System.out.print("\nEnter Account Holder Name:");
-
+                    sc.nextLine();
                     String name=sc.nextLine();
 
                     AccountController.createAccount(name);
