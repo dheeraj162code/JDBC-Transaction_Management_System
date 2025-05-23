@@ -9,7 +9,7 @@ public class Main {
 
         while(true){
             System.out.print("\n#########################################################################################");
-            System.out.println("\n1.Create Account.\n2.Check Balance\n3.Deposit\n4.Withdraw\n5.Transfer\n6.To get Transaction History");
+            System.out.println("\n1.Create Account.\n2.Check Balance\n3.Deposit\n4.Withdraw\n5.Transfer\n6.To get Transaction History\n0.Exit");
             Scanner sc=new Scanner(System.in);
             int option=sc.nextInt();
             if(option==0){
